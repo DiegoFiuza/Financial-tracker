@@ -11,11 +11,11 @@ async function bootstrap() {
   app.use(cookieParser());
 
   const config = new DocumentBuilder()
-    .setTitle('Gestão Financeira')
+    .setTitle('Financial-tracker')
     .setDescription(
       'Documentação detalhada da minha API de Gestão Financeira em NestJS',
     )
-    .setVersion('1.0')
+    .setVersion('1.2')
     .addTag('Users', 'Transactions') // Podes agrupar as rotas por tags
     .build();
 
