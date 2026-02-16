@@ -37,25 +37,26 @@ Construir uma API backend estruturada, segura e escalável, aplicando boas prát
 ---
 
 ## 📂 Estrutura do Projeto
-``
+
+<pre>
 app/
 └── src/
-└── modules/
-├── auth/
-├── users/
-│ ├── dto/
-│ ├── entities/
-│ ├── users.controller.ts
-│ ├── users.service.ts
-│ └── users.module.ts
-│
-└── transactions/
-├── dto/
-├── entities/
-├── transaction.controller.ts
-├── transaction.service.ts
-└── transaction.module.ts
-``
+    └── modules/
+        ├── auth/
+        ├── users/
+        │   ├── dto/
+        │   ├── entities/
+        │   ├── users.controller.ts
+        │   ├── users.service.ts
+        │   └── users.module.ts
+        │
+        └── transactions/
+            ├── dto/
+            ├── entities/
+            ├── transaction.controller.ts
+            ├── transaction.service.ts
+            └── transaction.module.ts
+</pre>
 
 ### Organização aplicada:
 
