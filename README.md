@@ -90,6 +90,7 @@ Após iniciar o servidor, a documentação estará disponível em: localhost:300
 - cd Financial-tracker
 
 2️⃣ Instale as dependências npm install
+
 3️⃣ Configure as variáveis de ambiente Crie um arquivo .env na raiz do projeto com base no .env.
 example: MONGODB_URI=SEU_DATABASE
 SECRET=SECRET_DE_JWT
