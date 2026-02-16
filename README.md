@@ -37,7 +37,7 @@ Construir uma API backend estruturada, segura e escalável, aplicando boas prát
 ---
 
 ## 📂 Estrutura do Projeto
-
+``
 app/
 └── src/
 └── modules/
@@ -55,6 +55,7 @@ app/
 ├── transaction.controller.ts
 ├── transaction.service.ts
 └── transaction.module.ts
+``
 
 ### Organização aplicada:
 
